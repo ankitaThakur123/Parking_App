@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+
+    font-size: 100%;
+
+    line-height: 1.15;
+
+    margin: 0;
+
+}
+
+
+button,
+input {
+
+    overflow: visible;
+}
+
+
+button,
+select {
+
+    text-transform: none;
+}
+
+
+textarea {
+    overflow: auto;
+}
+
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+
+    padding: 0;
+
+}
+
+details {
+    display: block;
+}
+
+html {
+
+    font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont,
+        Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    color: #404040;
+    background: white;
+    font-size: 1rem;
+}
+
+
+
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+
+
+a {
+    color: #0366ee;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #0246a2;
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.flex-small,
+.flex-large {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.flex-row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-small,
+.flex-large {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Small screen breakpoint, */
+@media (min-width: 600px) {
+    .flex-small {
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
+
+/* Large screen breakpoint */
+@media (min-width: 1000px) {
+    .flex-large {
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Buttons
+ */
+.button,
+button {
+
+    display: inline-block;
+    border: 1px solid #0366ee;
+    border-radius: 4px;
+    background: #0366ee;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+        Arial, sans-serif;
+    font-size: 1rem;
+    text-transform: none;
+    padding: 0.75rem 1.25rem;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.button:hover,
+button:hover {
+    border: 1px solid #0250bc;
+    background: #0250bc;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.muted-button {
+    background: transparent;
+    border: 1px solid #cdcdcd;
+    color: #4e4e4e;
+}
+
+.muted-button:hover,
+.muted-button:focus,
+.muted-button:active {
+    color: #4e4e4e;
+    border: 1px solid #818181;
+    background: transparent;
+}
